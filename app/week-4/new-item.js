@@ -35,8 +35,8 @@ export default function NewItem()
     return ( 
         <main>
                 <div className="absolute top-10 left-1/2 -translate-x-1/2 bg-white p-6 mt-4 rounded w-80">
-                    {/* <div className="flex items-center justify-center gap-4"> */}
-                        <span className="text-2xl text-black ml-10 mr-20">{quantity}</span>
+                    <div className="flex items-center justify-center gap-2">
+                        <span className="text-2xl text-black ml-5 mr-20">{quantity}</span>
                         <button 
                         onClick={decrement} 
                         className={subtractionButtonStyle}
@@ -49,7 +49,7 @@ export default function NewItem()
                         >
                             +
                         </button>
-                    {/* </div>  */}
+                    </div> 
                 </div>
             
         </main>
