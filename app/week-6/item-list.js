@@ -65,8 +65,6 @@ function ItemList() {
           onClick={() => setSortBy("name")}
           style={{
             backgroundColor: sortBy === "name" ? "#383838" : "#5990f0",
-            // hover: sortBy === "name" ? { backgroundColor: "#5b59f0" } : {backgroundColor: "#383838" },
-
             color: "white",
             marginRight: "10px",
             padding: "8px 16px",
@@ -94,7 +92,7 @@ function ItemList() {
       </div>
 
       {/* Render Items */}
-      <ul className="item-list">
+      <ul className="item-list ">
         {sortedItems.map((item) => (
           item.CategoryName ? (
             <React.Fragment key={item.CategoryName}>
