@@ -72,13 +72,13 @@ export default function NewItemForm({onAddItem })
     }
     return ( 
         <main className="flex justify-center w-full">
-            <form className="flex justify-center text-black flex-col gap-4  border-2 border-blue-600 rounded-2xl p-4 m-2 mb-10 " onSubmit={handleSubmit}>
+            <form className="flex justify-center text-black flex-col gap-4  border-2 border-blue-600 rounded-2xl p-4 m-2 mb-10" onSubmit={handleSubmit}>
 
                 <input className={inputStyle} value={itemName} type="text" onChange={handleItemNameChange}/>
 
-                <div className="flex justify-between gap-4 ">
-                    <div className="flex items-center justify-center border-2 border-blue-600 rounded  bg-white ">
-                        <span className="text-2xl text-black px-4 py-2 mr-10" >{quantity}</span>
+                <div className="flex justify-between gap-4">
+                    <div className="flex items-center justify-center   bg-white rounded  border-2 border-blue-600 ">
+                        <span className="text-2xl text-black px-4 py-2 mr-10">{quantity}</span>
                         <button 
                         type="button"
                         onClick={decrement} 
@@ -115,7 +115,7 @@ export default function NewItemForm({onAddItem })
                 
 
                 <div className="text-center">
-                    <button className="bg-indigo-500 text-white rounded border-1 border-gray-500 cursor-pointer hover:bg-indigo-300 active:bg-fuchsia-400 transition-colors px-4 py-2 " type="submit" >Submit Item</button>
+                    <button className="bg-indigo-500 text-white rounded border-1 border-gray-500 cursor-pointer hover:bg-indigo-300 active:bg-fuchsia-400 transition-colors px-4 py-2" type="submit" >Submit Item</button>
                 </div>
             </form>
 

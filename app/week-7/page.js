@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import itemsData from "./items.json";
-import ItemList from "./item-list";
+import ItemList from "../week-7/item-list";
 import NewItemForm from "./new-item";
 
 

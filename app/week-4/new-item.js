@@ -34,7 +34,7 @@ export default function NewItem()
 
     return ( 
         <main>
-                <div className="absolute top-10 left-1/2 -translate-x-1/2 bg-white p-6 mt-4 rounded w-80">
+                <div className="absolute top-10 left-1/2 -translate-x-1/2 bg-white p-6 mt-4 rounded-2xl w-80 border-2 border-gray-300">
                     <div className="flex items-center justify-center gap-2">
                         <span className="text-2xl text-black ml-5 mr-20">{quantity}</span>
                         <button 
